@@ -4,16 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap" rel="stylesheet">
+    <title>Ticket train</title>
 </head>
-<body>
-    <h1>Biglietteria</h1>
-
-    <h3>Il costo del tuo biglietto è</h3>
-
-    <h2 id="ticketCost" ></h2>
-
-
+<body class="bg-image">
+    <div class="container">
+        <header class="text-center">
+            <h1 class="my-h1 text-red">Shinkansen train lines</h1>
+        </header>
+        <main class="text-center">
+            <div class="row">
+                <div class="box">
+                    <h2 class="my-h2">Age</h2>
+                    <h3 class="my-h3 green" id="randomAge"></h3>
+                    <!-- <h3 class="my-h3 green" id="years"></h3> -->
+                </div>
+                <div class="box">
+                    <h2 class="my-h2">Distance</h2>
+                    <h3 class="my-h3 green" id="distance"></h3>
+                </div>
+            </div>
+            <h2 class="my-h2">Price</h2>        
+            <h1 id="ticketCost" class="my-h1 green"></h1>
+        </main>
+    </div>
     <script src="trainTicket.js"></script>
 </body>
 </html>

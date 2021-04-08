@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Ceviche One', cursive;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 80vw;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+.row {
+    float: left;
+}
+
+.box {
+    float: left;
+    width: 40vw;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-image {
+    background-image: url(img/shinkansen.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.my-h1 {
+    font-size: 80px;
+    padding: 10px 0 10px;
+    color: #4169E1;
+    text-shadow: -1px 0 #46a2d4, 0 5px #46a2d4, 1px 0 #46a2d4, 0 -1px #46a2d4;
+    font-weight: bold;
+}
+
+.my-h2 {
+    font-size: 40px;
+    padding: 0px 0 10px;
+    color: rgb(70, 162, 212);
+    text-shadow: -1px 0 #4169E1, 0 5px #4169E1, 1px 0 #4169E1, 0 -1px #4169E1;   
+}
+
+.my-h3 {
+    font-size: 40px;
+    padding: 0 0 20px;
+    color: #4169E1;
+    text-shadow: -1px 0 #46a2d4, 0 5px #46a2d4, 1px 0 #46a2d4, 0 -1px #46a2d4;
+}
+
+.red {
+    color: #ff4719;
+    text-shadow: -1px 0  #FFFF99, 0 5px  #FFFF99, 1px 0  #FFFF99, 0 -1px  #FFFF99;
+}
+
+.green {
+    color: rgb(101, 209, 109);
+    text-shadow: -1px 0 #7B68EE, 0 5px #7B68EE, 1px 0 #7B68EE, 0 -1px #7B68EE;
+}
