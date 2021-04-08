@@ -12,18 +12,18 @@ var totCost = (parseFloat((kms * costPerKm).toFixed(2)));
 var totCostMin = (parseFloat((kms * minCostPerKm).toFixed(2)));
 var totCostMax = (parseFloat((kms * maxCostPerKm).toFixed(2)));
 
-document.getElementById("randomAge").innerHTML = age + " years old";
 document.getElementById("distance").innerHTML = kms + " Km";
+document.getElementById("randomAge").innerHTML = age + " Years old";
 // document.getElementById("years").innerHTML = age + " Years old";
 
 if (isNaN(kms)) {
     document.getElementById("distance").innerHTML = "<p class='red'>Your coiche cannot be executed</p>";
     document.getElementById("ticketCost").innerHTML = "<small class='red'>エラー</small>";
-    document.getElementById("years").innerHTML = "<p class='red'>Your coiche cannot be executed</p>";
+    /*document.getElementById("years").innerHTML = "<p class='red'>Your coiche cannot be executed</p>";
 } else if (isNaN(age)) {
     document.getElementById("distance").innerHTML = "<p class='red'>Your coiche cannot be executed</p>";
     document.getElementById("ticketCost").innerHTML = "<small class='red'>エラー</small>";
-    document.getElementById("years").innerHTML = "<p class='red'>Your coiche cannot be executed</p>";
+    document.getElementById("years").innerHTML = "<p class='red'>Your coiche cannot be executed</p>";*/
 } else {
     if (age < minAge) {
         document.getElementById("ticketCost").innerHTML = totCostMin + " ¥";
@@ -32,4 +32,4 @@ if (isNaN(kms)) {
     } else {
         document.getElementById("ticketCost").innerHTML = totCost + " ¥";
     };
-}
+};
